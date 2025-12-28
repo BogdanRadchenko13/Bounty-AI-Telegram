@@ -7,6 +7,7 @@ import os
 from telebot import types
 from translator import AI_Translator
 from colorama import *
+from urllib3.fields import format_header_param_rfc2231 as format_header_param
 
 colorama.init(autoreset=True)
 
